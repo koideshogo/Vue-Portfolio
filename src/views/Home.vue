@@ -8,11 +8,18 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from '@/components/HelloWorld.vue'
+import firebase from 'firebase'
 
 export default {
-  name: 'Home',
+  name: 'home',
   components: {
     HelloWorld
+  },
+  created(){
+    firebase.database().ref('/')
+      .once('value', function (snapshot) {
+        console.log(snapshot.val())
+      })
   }
 }
 </script>
