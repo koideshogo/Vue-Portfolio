@@ -1,19 +1,3 @@
-# vue_portfolio
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## ポートフォリオサイト
+* 経歴、製作物、スキル、プログラミング学習等をまとめました。
+* Nuxt.js + Vue Router +axios +Firebase で作成しました
