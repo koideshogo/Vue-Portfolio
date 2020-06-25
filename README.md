@@ -1,19 +1,4 @@
-# vue_portfolio
-
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## ポートフォリオサイト
+URL: https://vue-portfolio-b3356.firebaseapp.com/
+* 経歴、製作物、スキル、プログラミング学習等をまとめました。
+* Vue.js + Vuex + Vue Router +axios +Firebase で作成しました
