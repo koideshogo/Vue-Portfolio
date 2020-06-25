@@ -63,7 +63,7 @@
       <div class="bottomcontents-parent">
         <div class="bottomcontents-child">
           <div class="bottom-title">ENGINEERS</div>
-          <div bottom-copy>
+          <div class="bottom-copy">
             <strong><p>どのようなエンジニアになりたいか</p></strong>
             <p>謙虚に学び続け、変化による価値を生み出し、多くの人の役に立てるエンジニアになりたい</p>
             <ul>
@@ -108,7 +108,7 @@ export default {
 </script>
 
 
-<style>
+<style scorp>
 .toppage-contents-area {
   width: 100vw;
   min-height: 100vh;
@@ -261,9 +261,79 @@ li {
   text-align: center;
 }
 
+.bottom-copy, ul {
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.88;
+  letter-spacing: -.025em;
+  overflow-wrap : break-word;
+}
+
 .bottomcontents-child {
   margin: auto;
   text-align: center;
   width: 75%;
 }
+
+
+  @media screen and (max-width: 479px) { 
+    .topcontents-parent {
+      padding: 0.5em 1em;
+
+      font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (max-width: 479px) { 
+    .topcontents-child {
+      display: block;
+    }
+  }
+
+    @media screen and (max-width: 479px) { 
+    .toppage-contents__section-title {
+      font-size: 25px;
+    }
+    
+  }
+
+
+   @media screen and (max-width: 479px) { 
+    .top-title,.middle-title, .bottom-title  {
+      font-size: 25px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 479px) { 
+    .top-rightbox {
+      margin: auto;
+    }
+  }
+
+
+      @media screen and (max-width: 479px) { 
+    .middlecontents-child {
+      width: 56%;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 479px) { 
+    .middle-copy, .bottom-copy {
+      width: 160px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 479px) { 
+    ul{
+      padding: 0;
+    }
+  }
+
+  
+
+
 </style>

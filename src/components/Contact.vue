@@ -9,7 +9,6 @@
           <p>wantedly</p>
           <p><a href="https://www.wantedly.com/users/116247291">https://www.wantedly.com/users/116247291</a></p>
         </div>
-        </div>
       </div>
     </div>
 </template>

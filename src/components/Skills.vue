@@ -116,4 +116,26 @@ export default {
 p {
   text-align: center;
 }
+
+    @media screen and (max-width: 479px) { 
+    .skill-lists {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+
+  @media screen and (max-width: 479px) { 
+    .skill-item {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 479px) { 
+    .skill-parentcontents {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+
 </style>

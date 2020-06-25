@@ -13,9 +13,14 @@
 </template>
 
 <script>
+import { Slide } from 'vue-burger-menu'
 
 export default {
-  name: 'Header'
+  name: 'Header',
+  components: {
+    Slide,
+
+    }
 }
 
 </script>
@@ -74,5 +79,23 @@ a.router-link-exact-active{
   margin: auto;
   text-decoration: none;
 }
+
+
+
+  @media screen and (max-width: 500px){
+    .hero-grobalnav__item {
+      font-size: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 479px) { 
+    .hero-grobalnav__list {
+      padding: 5px;
+      width:55%;
+      font-size: 0.5rem;
+    }
+    
+  }
+
 
 </style>

@@ -14,7 +14,8 @@
             </div>
             <div class="app-overreview">
                <strong><p>アプリ概要</p></strong>
-               <p>これまでの学習のまとめをポートフォリをとしてまとめました。</p>
+               <p>本サイトになります。</p>
+               <p>これまでの学習のまとめをポートフォリとしてまとめました。</p>
             </div>
             <div class="app-comment">
                <strong><p>コメント / ポイント</p></strong>

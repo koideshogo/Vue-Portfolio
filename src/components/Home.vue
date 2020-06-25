@@ -24,11 +24,18 @@
 <script>
 import { VueTyper } from 'vue-typer'
 import { mapGetters } from 'vuex'
+import VueMq from 'vue-mq'
 
 export default {
   name: "Home",
   components: {
-     VueTyper
+     VueTyper,
+     VueMq,
+    breakpoints: { // default breakpoints - customize this
+      sm: 450,
+      md: 1250,
+      lg: Infinity,
+    }
   }
 }
 
@@ -36,6 +43,8 @@ export default {
 </script>
 
 <style scoped>
+
+
 .hero-contens{
   top: 0;
   height: 100vh;
@@ -45,10 +54,7 @@ export default {
   width: 65%;
   margin: auto;
 }
-  .hero-contens-title {
 
-
-  }
 
   h1 {
     font-size: 2.723vw;
@@ -59,7 +65,9 @@ export default {
     z-index: 98;
     left: 18%;
 
-  }
+}
+
+
   .TopImage {
     position: absolute;
     top: 25%;
@@ -77,4 +85,19 @@ export default {
     font-family: Geneva,Tahoma,Verdana,sans-serif;
     letter-spacing: .05em
   }
+
+
+  @media screen and (max-width: 500px){
+  h1,.hero-typer{
+    font-size: 1.0rem;
+    writing-mode: vertical-rl;
+    top: 12%;
+    padding: 50px;
+  }
+}
+  @media screen and (max-width: 500px){
+  h1{
+    top: 22%;
+  }
+}
 </style>

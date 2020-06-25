@@ -159,4 +159,32 @@ export default {
 a {
   color: black;
 }
+
+@media screen and (max-width: 479px) { 
+    .appcontents-child {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 479px) { 
+    .app-leftbox {
+      width: 100%;
+    }
+  }
+
+    @media screen and (max-width: 479px) { 
+    .app-rightbox {
+      width: 100%;
+    }
+  }
+
+
+    @media screen and (max-width: 479px) { 
+      a {
+        word-break: break-all;
+    }
+  }
+
+
+
 </style>
