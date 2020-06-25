@@ -1,34 +1,31 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/rails">Rails</router-link>
-      <router-link to="/vue">Vue</router-link>
-    </div>
-    <router-view/>
+    <Header />
+    <router-view />
   </div>
 </template>
 
-<style>
+<script>
+import 'normalize.css'
+
+import Header from './components/Header'
+
+
+export default {
+  name: 'App',
+  components: {
+    Header
+  }
+}
+
+</script>
+
+
+
+<style pronped>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  margin: 0;
+  font-family: Hiragino Kaku Gothic ProN,"\30E1\30A4\30EA\30AA",sans-serif;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
