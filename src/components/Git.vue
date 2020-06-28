@@ -1,8 +1,8 @@
 <template>
   <div class="toppage-contents-area">
-      <div class="toppage-contents__section-title">Git hub</div>
-      <p>現在準備中です。axios　APIを使用して表示予定です。</p>
-    </div>
+    <div class="toppage-contents__section-title">Git hub</div>
+    <p>現在準備中です。axios　APIを使用して表示予定です。<a href="https://github.com/koideshogo">Git hub はこちら</a></p>
+  </div>
 </template>
 
 
