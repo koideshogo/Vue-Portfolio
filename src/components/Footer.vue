@@ -12,5 +12,6 @@
 .footer-child {
   text-align: center;
   font-size: 10px;
+  margin-top: 10px;
 }
 </style>
