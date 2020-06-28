@@ -64,8 +64,14 @@
         <div class="bottomcontents-child">
           <div class="bottom-title">ENGINEERS</div>
           <div class="bottom-copy">
+            <strong><p>なぜエンジニアになりたいのか</p></strong>
+            <p>プログラミングを用ることにより、多くの人の役に立つことができる点に大変魅力を感じたからです。
+              具体的には、現職の中で効率化できる業務が多く、自身でシステムを導入できればより社員が働きやすくなるのでは、とプログラミングの学習を始めたことがきっかけでした。
+              現在は、社内70名の社員向けのサービスを想定して開発を行っています。実際サービスを使っていただいた人の人生が好転していくと想像しながら行う開発に非常に感銘を受けました。
+              以上より私はプログラミングを通してサービスに携わって多くの方に役に立つエンジニアになりたいと思いました。
+            </p>
             <strong><p>どのようなエンジニアになりたいか</p></strong>
-            <p>謙虚に学び続け、変化による価値を生み出し、多くの人の役に立てるエンジニアになりたい</p>
+            <p>謙虚に学び続け、変化による価値を生み出し、多くの人の役に立てるエンジニアになりたいです。</p>
             <ul>
               <strong><li>変化を生み出す</li></strong>
               <p> 現状に満足せず、常に学び続けていけるエンジニアでありたいと思っております。
@@ -147,6 +153,7 @@ li {
 
 .sns-icon-list {
   display: flex;
+  padding-left: 38px;
 }
 .sns-icon {
   font-size: 30px;
@@ -267,6 +274,7 @@ li {
   line-height: 1.88;
   letter-spacing: -.025em;
   overflow-wrap : break-word;
+  padding: 0;
 }
 
 .bottomcontents-child {
