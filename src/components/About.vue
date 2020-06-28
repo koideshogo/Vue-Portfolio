@@ -284,7 +284,7 @@ li {
 }
 
 
-  @media screen and (max-width: 479px) { 
+  @media screen and (max-width: 500px) { 
     .topcontents-parent {
       padding: 0.5em 1em;
 
@@ -292,13 +292,13 @@ li {
     }
   }
 
-  @media screen and (max-width: 479px) { 
+  @media screen and (max-width: 500px) { 
     .topcontents-child {
       display: block;
     }
   }
 
-    @media screen and (max-width: 479px) { 
+    @media screen and (max-width: 500px) { 
     .toppage-contents__section-title {
       font-size: 25px;
     }
@@ -306,28 +306,28 @@ li {
   }
 
 
-   @media screen and (max-width: 479px) { 
+   @media screen and (max-width: 500px) { 
     .top-title,.middle-title, .bottom-title  {
       font-size: 25px;
       text-align: center;
     }
   }
 
-  @media screen and (max-width: 479px) { 
+  @media screen and (max-width: 500px) { 
     .top-rightbox {
       margin: auto;
     }
   }
 
 
-      @media screen and (max-width: 479px) { 
+      @media screen and (max-width: 500px) { 
     .middlecontents-child {
       width: 56%;
       margin: 0 auto;
     }
   }
 
-  @media screen and (max-width: 479px) { 
+  @media screen and (max-width: 500px) { 
     .middle-copy, .bottom-copy {
       width: 160px;
       text-align: center;
@@ -335,13 +335,16 @@ li {
     }
   }
 
-  @media screen and (max-width: 479px) { 
+  @media screen and (max-width: 500px) { 
     ul{
       padding: 0;
     }
   }
 
-  
-
+    @media screen and (max-width: 500px) { 
+    .top-leftbox{
+      margin-left: 22%;
+    }
+  }
 
 </style>
