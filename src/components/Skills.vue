@@ -1,6 +1,37 @@
 <template>
   <div class="toppage-contents-area">
       <div class="toppage-contents__section-title">SKILL SETS</div>
+      <div class="study-parentcontents">
+        <div class="study-childcontents">
+          <div class="study-leftbox">
+              <img class="mokumoku-img" src="@/assets/mokumoku.jpg" width="500px"/>
+          </div>
+          <div class="study-rightbox">
+            <div class="study-title">
+              <p>もくもく会</p>
+            </div>
+            <div class="study-copy">
+              <ul class="study-text">
+                <li class="study-item">
+                  <p>積極的にもくもく会にも参加し同じ志をもつ方々とコミュニケーションを取っています。</p>
+                </li>
+                <li class="study-item">
+                  <p>所属するオンラインサロンでオンラインもくもくにも参加し情報交換。</p>
+                </li>
+                <li class="study-item">
+                  <p>
+                    →　積極性、コミュニケーション能力があります。
+                  </p>
+                <li class="study-item">
+                  <p>
+                    以下学習中のスキルセットになります。
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="skill-parentcontents">
         <div class="skill-childcontents">
           <div class="skill-uppercontents">
@@ -65,7 +96,7 @@ import { faTwitter, faGithub, faHtml5, faSass, faJs, faAws, faVuejs } from "@for
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
-library.add(faSpinner, faCoffee, faRss, faPencilAlt, faTwitter, faGithub, 
+library.add(faSpinner, faCoffee, faRss, faPencilAlt, faTwitter, faGithub,
             faBlog, faGem, faHtml5, faSass, faJs, faAws, faVuejs)
 
 export default {
@@ -88,6 +119,37 @@ export default {
   height: 90%;
   margin-bottom: 3%;
 }
+.study-parentcontents {
+  width: 85%;
+  background: #F5F5F5;
+  padding: 3em 1em;
+  margin: auto;
+  margin-bottom: 3%;
+  border-bottom: solid 6px ;
+  border-radius: 9px;
+}
+
+.study-childcontents {
+  display: flex;
+}
+
+.study-title {
+  font-size: 40px;
+  letter-spacing: 4.5px;
+  font-family: Geneva,Tahoma,Verdana,sans-serif;
+  letter-spacing: .18em;
+  font-weight: 700;
+}
+
+.study-rightbox {
+  width: 100%;
+}
+
+
+.appcontents-child {
+  display: flex;
+}
+
 
 .skill-item {
   padding: 7.5em 3em;
@@ -117,25 +179,38 @@ p {
   text-align: center;
 }
 
-    @media screen and (max-width: 479px) { 
-    .skill-lists {
-      display: block;
-      margin: 0 auto;
-    }
+@media screen and (max-width: 479px) {
+  .mokumoku-img {
+    width: 350px;
+    text-align: center;
   }
+}
 
-  @media screen and (max-width: 479px) { 
-    .skill-item {
-      width: 100%;
-    }
+@media screen and (max-width: 479px) {
+  .study-leftbox {
+    text-align: center;
   }
+}
 
-  @media screen and (max-width: 479px) { 
-    .skill-parentcontents {
-      padding: 0;
-      margin: 0;
-    }
+@media screen and (max-width: 479px) {
+  .skill-lists, .study-childcontents {
+    display: block;
+    margin: 0 auto;
   }
+}
+
+@media screen and (max-width: 479px) {
+  .skill-item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .skill-parentcontents {
+    padding: 0;
+    margin: 0;
+  }
+}
 
 
 </style>
